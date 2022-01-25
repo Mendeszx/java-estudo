@@ -1,0 +1,26 @@
+EQUALS ->
+O método equals é utilizado para comparações.
+A classe String e as classes Wrapper sobrescrevem equals() para garantir que dois objetos
+desses tipos, com o mesmo conteúdo, possam ser considerados iguais.
+
+STATIC ->
+São membros que fazem sentido independente de objetos. Não precisam de objeto para serem chamados.
+São chamados a partir do próprio nome da classe.
+
+THIS ->
+Praticamente a palavra-chave "this" é uma referência ao objeto atual (ele mesmo).
+isso pode ser usado dentro de algum método ou construtor. Retorna a referência ao objeto atual.
+
+WRAPPER ->
+Os Wrapper são conhecidos na linguagem Java como classes especiais que possuem métodos capazes de fazer
+conversões em variáveis primitivas e também de encapsular tipos primitivos para serem trabalhados como objetos,
+ou seja, é feita um embrulho de streams que são fluxo de dados através de canais.
+
+ENUM ->
+São tipos de campos que consistem em um conjunto fixo de constantes (static final),
+sendo como uma lista de valores pré-definidos.
+
+@Override ->
+é uma “annotation” que pode ser acrescentada a um método que foi sobreposto (“overridden”).
+Ela deve ser usada para métodos sobrepostos,
+não necessariamente aqueles que devem ser implementados devido ao uso de uma interface
